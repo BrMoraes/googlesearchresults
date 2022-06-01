@@ -1,0 +1,200 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+
+header {
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-bottom: 1px solid lightgray;
+   width: 100vw;
+   padding-bottom: 20px;
+}
+
+.headerTop {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.headerLeft img {
+   width: 100px;
+   margin: 20px;
+   margin-left: 40px;
+   margin-top: 25px;
+}
+
+.headerMiddle {
+   display: flex;
+   flex-direction: row;
+   margin-top: 13px;
+}
+
+.input {
+   flex: 1;
+}
+
+.input input {
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: white;
+   font-size: 16px;
+}
+
+.headerMiddle {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #d1d3d4;
+   height: 44px;
+   border-radius: 24px;
+   width: 600px;
+}
+
+.searchIcons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+   gap: 8px;
+}
+
+.searchIcons img {
+   width: 23px;
+}
+
+.searchRight {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 7px;
+}
+
+
+.menu img {
+   width: 20px;
+}
+
+.userIcon img {
+   width: 50px;
+   margin-top: 10px;
+}
+
+.headerSub {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   align-items: center;
+   margin-top: 10px;
+   margin-left: 150px;
+}
+
+.headerSub a {
+   text-decoration: none;
+   color: rgb(97, 96, 96);
+   padding: 5px;
+   padding-bottom: 18px;
+}
+
+.headerSub a:hover {
+   border-bottom: 3px solid rgb(53, 182, 224);
+}
+
+.notices {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   margin-left: 150px;
+   margin-top: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   gap: 4px;
+}
+
+.noticesTitle a{
+   font-size: 25px;
+   margin-bottom: 4px;
+   font-weight: bold;
+   color: blue;
+}
+
+.noticesLink a {
+   text-decoration: none;
+   color: green;
+   margin-bottom: 2px;
+   font-size: 14px;
+}
+
+.notices p {
+   margin-top: 2px;
+   margin-right: 100px;
+}
+
+.containerSearches {
+   margin-left: 150px;
+   margin-top: 250px;
+}
+
+#titleSearches {
+   margin-bottom: 20px;
+}
+
+#titleSearches p {
+   font-weight: 500;
+   font-size: 17px;
+}
+
+.options {
+   display: flex;
+   gap: 50px;
+   color: blue;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.footerfinal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+}
+
+.footerfinal img {
+   width: 400px;
+   margin-bottom: 10px;
+}
+
+.containerNumberOfPages {
+   gap: 5px;
+}
+
+.containerNumberOfPages a{
+   text-decoration: none;
+   color: rgb(53, 182, 224);
+   padding: 5px;
+}
+
+#more {
+   margin-left: 25px;
+}
+
+#clicked {
+   color: black;
+}
+
+
+@media screen and (max-width:900px) {
+   .headerMiddle {
+      width: 450px;
+      transition: 1s;
+   }
+}
